@@ -14,15 +14,8 @@ public class LoginServlet extends HttpServlet{
 	
 	protected void doGet(HttpServletRequest request,
 						  HttpServletResponse response) throws ServletException, IOException {
-		PrintWriter out = response.getWriter();
-		out.println("<html>");
-		out.println("<head>");
-		out.println("<title> Yahoooooo! </title>");
-		out.println("</head>");
-		out.println("<body>");
-		out.println("My first servlet");
-		out.println("</body>");
-		out.println("</html>");
+		
+		request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
 		
 	}
 }
