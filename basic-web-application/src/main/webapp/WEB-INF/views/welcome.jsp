@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Yahooo!! from jsp</title>
+<title>Welcome</title>
 </head>
 <body>
-<form action="/login.do	" method="post">
-Enter your name : <input type="text" name="myName" />
- <input type="submit" value="Login"/>
-</form>
+Welcome ${name}
 </body>
 </html>
