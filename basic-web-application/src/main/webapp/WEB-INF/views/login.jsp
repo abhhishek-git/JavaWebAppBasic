@@ -8,8 +8,12 @@
 </head>
 <body>
 <form action="/login.do	" method="post">
+<p><font color="red">${errorMessage }</font></p>
 Enter your name : <input type="text" name="myName" />
+<br/><br/>
+Password: <input type="password" name="myPassword"/>
  <input type="submit" value="Login"/>
+
 </form>
 </body>
 </html>
