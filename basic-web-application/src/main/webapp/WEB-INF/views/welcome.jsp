@@ -7,7 +7,7 @@
 <title>Welcome</title>
 </head>
 <body>
-Welcome ${name} you entered correct password!
+Welcome ${name} 
 </body>
 </html>
 <!-- Valid User -> welcome.jsp -->
