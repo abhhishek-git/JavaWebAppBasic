@@ -4,11 +4,16 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome</title>
+<title>MyTitle</title>
 </head>
 <body>
-Welcome ${name} <Br/>
-Now you can <a href="/listTodo">manage your todos </a>
+<h3>Add a Todo</h3>
+
+<form method="post">
+	<input name="desc" type="text"/>
+	<input type="submit" value="Add"/>
+</form>
+
 </body>
 </html>
 <!-- Valid User -> welcome.jsp -->
