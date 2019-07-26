@@ -11,14 +11,18 @@
 	<div class="container">
 		<h3>Add a Todo</h3>
 		<form:form method="post" commandName="todo">
+
+			<form:hidden path="id" />
+			<form:hidden path="user" />
+			
 			<fieldset class="form-group">
 				<form:label path="desc"> Description </form:label>
 				<form:input path="desc" type="text" class="form-control"
-					required="required"/>
-					<form:errors path="desc" cssClass="text-warning"></form:errors>
+					required="required" />
+				<form:errors path="desc" cssClass="text-warning"></form:errors>
 			</fieldset>
 
-			<input class="btn-success" type="submit" value="Add" />
+			<input class="btn-success" type="submit" value="Submit" />
 		</form:form>
 
 	</div>
