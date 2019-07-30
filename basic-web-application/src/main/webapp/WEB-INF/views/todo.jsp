@@ -25,6 +25,7 @@
 		</form:form>
 
 	</div>
+	<%@include file="common/footer.jspf" %>
 	
 <!-- Valid User -> welcome.jsp -->
 <!-- Invalid User -> login.jsp -->

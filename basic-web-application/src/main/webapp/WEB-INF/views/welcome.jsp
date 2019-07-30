@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@include file="common/header.jspf" %>
+<%@include file="common/navigation.jspf" %>
+<div class="container">
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -11,5 +11,5 @@ Welcome ${name} <Br/>
 Now you can <a href="/listTodo">manage your todos </a>
 </body>
 </html>
-<!-- Valid User -> welcome.jsp -->
-<!-- Invalid User -> login.jsp -->
+</div>
+<%@include file="common/footer.jspf" %>
